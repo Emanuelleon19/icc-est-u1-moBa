@@ -14,7 +14,7 @@ public class App {
         int tamanio = leerEnteroValido(scanner, "Ingrese el tamaño del arreglo :", false);
         int [] arreglo2 = new int[tamanio];
         for(int i = 0; i < tamanio; i++){
-            arreglo2[i] = leerEnteroValido(scanner,"Elemento", true);
+            arreglo2[i] = leerEnteroValido(scanner,"Elemento " + (i+1), true);
         }
         for(int i : arreglo2 ){
             System.out.println(i);
